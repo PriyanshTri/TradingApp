@@ -10,22 +10,33 @@ using System.Windows.Forms;
 
 namespace TradingApp
 {
-    public partial class Form2 : Form
+    public partial class Main : Form
     {
-        public Form2()
+        public Main()
         {
             InitializeComponent();
         }
 
         private void tradingTicketToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 obj = new Form3();
+            TradingTicket obj = new TradingTicket();
             obj.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void dailyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void blotterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Blotter obj = new Blotter();
+            obj.Show();
         }
     }
 }

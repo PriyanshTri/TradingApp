@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Form2.Properties
+namespace InfraTest.Properties
 {
 
 

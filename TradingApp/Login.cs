@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TradingApp
 {
-    public partial class login : Form
+    public partial class Login : Form
     {
-        public login()
+        public Login()
         {
             InitializeComponent();
         }
@@ -34,7 +34,7 @@ namespace TradingApp
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form2 obj = new Form2();
+            Main obj = new Main();
             obj.Show();
         }
     }
