@@ -33,7 +33,6 @@
             this.tradingTicketToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.blotterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allocationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allocationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.closingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dailyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portfolioManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,7 +47,6 @@
             this.tradingTicketToolStripMenuItem,
             this.blotterToolStripMenuItem,
             this.allocationToolStripMenuItem,
-            this.allocationToolStripMenuItem1,
             this.closingToolStripMenuItem,
             this.dailyToolStripMenuItem,
             this.portfolioManagementToolStripMenuItem});
@@ -78,12 +76,7 @@
             this.allocationToolStripMenuItem.Name = "allocationToolStripMenuItem";
             this.allocationToolStripMenuItem.Size = new System.Drawing.Size(80, 25);
             this.allocationToolStripMenuItem.Text = "Allocation";
-            // 
-            // allocationToolStripMenuItem1
-            // 
-            this.allocationToolStripMenuItem1.Name = "allocationToolStripMenuItem1";
-            this.allocationToolStripMenuItem1.Size = new System.Drawing.Size(80, 25);
-            this.allocationToolStripMenuItem1.Text = "Allocation";
+            this.allocationToolStripMenuItem.Click += new System.EventHandler(this.allocationToolStripMenuItem_Click);
             // 
             // closingToolStripMenuItem
             // 
@@ -104,7 +97,7 @@
             this.portfolioManagementToolStripMenuItem.Size = new System.Drawing.Size(157, 25);
             this.portfolioManagementToolStripMenuItem.Text = "Portfolio Management";
             // 
-            // Form2
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +107,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "Form2";
+            this.Name = "Main";
             this.Text = "Nirvana";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -130,7 +123,6 @@
         private System.Windows.Forms.ToolStripMenuItem tradingTicketToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem blotterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allocationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allocationToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem closingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dailyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem portfolioManagementToolStripMenuItem;

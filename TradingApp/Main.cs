@@ -38,5 +38,11 @@ namespace TradingApp
             Blotter obj = new Blotter();
             obj.Show();
         }
+
+        private void allocationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Allocation obj=new Allocation();
+            obj.Show();
+        }
     }
 }
