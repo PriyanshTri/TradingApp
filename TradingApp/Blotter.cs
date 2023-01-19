@@ -17,6 +17,12 @@ namespace TradingApp
         {
             InitializeComponent();
         }
+        public Blotter(DataTable data)
+        {
+            InitializeComponent();
+            ultraGrid1.DataSource = data;
+            ultraGrid1.Refresh();
+        }
 
         private void ultraGrid1_InitializeLayout(object sender, Infragistics.Win.UltraWinGrid.InitializeLayoutEventArgs e)
         {
